@@ -19,7 +19,7 @@ namespace EmpManagement
             InitializeComponent();
         }
 
-        SqlConnection con = new SqlConnection(@"Data Source=12wrx;Initial Catalog=employeedb;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=12wrx;Initial Catalog=employeedb;Integrated Security=True");  //Predstavuje pripojenie k databáze SQL Server. Táto trieda sa nedá zdediť.
 
 
         private void button1_Click(object sender, EventArgs e)
