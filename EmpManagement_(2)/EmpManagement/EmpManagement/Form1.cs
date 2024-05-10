@@ -16,20 +16,20 @@ namespace EmpManagement
         {
             Employee EmployeeInfo = new Employee();
 
-            EmployeeInfo.Show();
+            EmployeeInfo.Show(); //Otvorí okno a vráti sa späť bez čakania na zatvorenie novootvoreného okna.
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             EmployeeInfo EmployeeInfo = new EmployeeInfo();
 
-            EmployeeInfo.Show();
+            EmployeeInfo.Show(); //Otvorí okno a vráti sa späť bez čakania na zatvorenie novootvoreného okna.
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close(); // zatvorí aplikáciu
         }
     }
 }
